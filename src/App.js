@@ -1,25 +1,30 @@
-import logo from './poggers.png';
-import './App.css';
+import React from 'react';
+import Home from './Home.js';
+import Navbar from './Navbar.js';
+import About from './About.js';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
-function App() {
+export default function App(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          SPROCKET CAN'T DEVELOP WEBSITES POGGERS
-        </p>
-        <a
-          className="App-link"
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          POG
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+
+        {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
-
-export default App;
