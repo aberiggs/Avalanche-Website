@@ -7,10 +7,10 @@ function Navbar(){
             <nav>
                 <ul>
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/Avalanche-Website/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/about">About</Link>
+                        <Link to="/Avalanche-Website/about">About</Link>
                     </li>
                 </ul>
             </nav>

@@ -1,3 +1,12 @@
-div {
-    padding-top: 10px;
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.About-div {
+    padding-top: 40px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color: black;
+    color: rgb(211, 211, 211);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }

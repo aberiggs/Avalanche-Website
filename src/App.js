@@ -17,10 +17,10 @@ export default function App(){
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/about">
+          <Route path="/Avalanche-Website/about">
             <About />
           </Route>
-          <Route path="/">
+          <Route path="/Avalanche-Website/">
             <Home />
           </Route>
         </Switch>
