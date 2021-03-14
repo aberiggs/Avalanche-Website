@@ -1,4 +1,3 @@
-import logo from './poggers.png';
 import './css/Home.css';
 
 function Home() {
