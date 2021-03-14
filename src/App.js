@@ -1,8 +1,8 @@
 import React from 'react';
-import Home from './Home.js';
-import Navbar from './Navbar.js';
-import About from './About.js';
-import Support from './Support.js'
+import Home from './components/Home.js';
+import Navbar from './components/Navbar.js';
+import About from './components/About.js';
+import Support from './components/Support.js'
 import {
   BrowserRouter as Router,
   Switch,
