@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/*TODO: Give each html tag a class and address it in the css*/
+
 body {margin:0;}
 
 ul {
@@ -6,27 +10,28 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: rgb(36, 36, 36);
-  position: fixed;
+  position: static;
   top: 0;
   width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: calc(5px + 2vmin);
+  text-align: center;
 }
 
+
 li {
-  float: left;
+  display: inline-block;
 }
 
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 2vmin 2.5vmin;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active {
-  background-color: #4CAF50;
+  background-color: rgb(255, 255, 255);
+  color: black
 }

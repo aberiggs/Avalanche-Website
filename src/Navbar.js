@@ -12,6 +12,9 @@ function Navbar(){
                     <li>
                         <Link to="/Avalanche-Website/about">About</Link>
                     </li>
+                    <li>
+                        <Link to="/Avalanche-Website/support">Support</Link>
+                    </li>
                 </ul>
             </nav>
         </div>

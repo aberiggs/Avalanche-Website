@@ -3,14 +3,13 @@ import './css/Home.css';
 
 function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+    <div className="Home">
+      <header className="Home-header">
+        <p className="Home-paragraph">
           SPROCKET CAN'T DEVELOP WEBSITES POGGERS
         </p>
         <a
-          className="App-link"
+          className="Home-link"
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           target="_blank"
           rel="noopener noreferrer"
