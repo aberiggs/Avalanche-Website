@@ -4,16 +4,17 @@ function Home() {
   return (
     <div className="Home">
       <header className="Home-header">
+        <h>Team Avalanche</h>
         <p className="Home-paragraph">
-          SPROCKET CAN'T DEVELOP WEBSITES POGGERS
+          This site is currently under contruction
         </p>
         <a
           className="Home-link"
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          href="https://docs.google.com/document/d/14IB35g7mlI2LDgrvd4C-YaABmOifI51rSgaAwI6Gdqs/edit#"
           target="_blank"
           rel="noopener noreferrer"
         >
-          POG
+          Project Instructions Link (test link)
         </a>
       </header>
     </div>

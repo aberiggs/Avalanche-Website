@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
 
 .Home {
     text-align: center;
   }
   
+  /*
   .Home-logo {
     height: 40vmin;
     pointer-events: none;
@@ -14,16 +16,19 @@
       animation: App-logo-spin infinite 20s linear;
     }
   }
-  
+  */
+
   .Home-header {
     background-color: #303030;
-    min-height: 100vh;
+    min-height: 70vmin;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
+    /*justify-content: center; */
+    padding-top: 30vmin; 
+    font-size: calc(10px + 6vmin);
     color: white;
+    font-family: 'Redressed', cursive;
   }
 
   .Home-paragraph {
@@ -33,8 +38,10 @@
   
   .Home-link {
     color: #61dafb;
+    font-size: calc(10px + 3vmin);
   }
-  
+
+  /*
   @keyframes App-logo-spin {
     from {
       transform: rotate(0deg);
@@ -43,4 +50,4 @@
       transform: rotate(360deg);
     }
   }
-  
+  */

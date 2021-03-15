@@ -3,9 +3,9 @@ import './css/About.css';
 function About(){
     return(
         <div className="About-div">
-            <h1> Yes, you are correct, this website is crazy with a ton of features, developed by no other than the legendary Abe Z Riggs IV.</h1>
-            <h1>swag</h1>
-            <img src="https://cdn.betterttv.net/emote/5e9cdca974046462f7673006/3x"></img>
+            <h1> Hello, this part of the website is still under construction</h1>
+            <h1>Test image below</h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Bleriot_XI_Thulin_A_1910_a.jpg" alt="Blériot XI flying"></img>
         </div>
     );
 }
