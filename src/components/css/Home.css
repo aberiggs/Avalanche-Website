@@ -51,3 +51,21 @@
     }
   }
   */
+
+  
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 200vh;
+  max-height: 50%;
+  max-width: 80%
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
