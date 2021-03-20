@@ -3,6 +3,7 @@
 
 .Home {
     text-align: center;
+    background-color: #303030;
   }
   
   /*
@@ -19,7 +20,6 @@
   */
 
   .Home-header {
-    background-color: #303030;
     min-height: 70vmin;
     display: flex;
     flex-direction: column;
@@ -58,12 +58,12 @@
   align-items: center;
   justify-content: center;
   background-size: cover;
-  height: 200vh;
-  max-height: 50%;
-  max-width: 80%
+  background-position: center;
+  height: 80vh;
 }
 
 .each-slide span {
+  visibility: hidden;
   padding: 20px;
   font-size: 20px;
   background: #efefef;
