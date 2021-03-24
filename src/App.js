@@ -2,7 +2,7 @@ import React from 'react';
 import Home from './components/Home.js';
 import Navbar from './components/Navbar.js';
 import About from './components/About.js';
-import Support from './components/Support.js'
+import TechnicalDocuments from './components/TechnicalDocuments.js';
 import {
   BrowserRouter as Router,
   Switch,
@@ -22,8 +22,8 @@ export default function App(){
             */}
         
         <Switch>
-          <Route path="/Avalanche-Website/support">
-            <Support />
+          <Route path="/Avalanche-Website/technical-documents">
+            <TechnicalDocuments />
           </Route>
           <Route path="/Avalanche-Website/about">
             <About />

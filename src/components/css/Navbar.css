@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
-/*TODO: Give each html tag a class and address it in the css*/
+.Nav-main{
+  position: relative;
+  padding: 2vmin;
+  background-color: rgb(19, 19, 19);
+}
+
+
 
 body {margin:0;}
 
-ul {
+.Nav-main ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -19,19 +25,26 @@ ul {
 }
 
 
-li {
+.Nav-links a {
   display: inline-block;
-}
-
-li a {
-  display: block;
   color: white;
   text-align: center;
   padding: 2vmin 2.5vmin;
   text-decoration: none;
+ 
+  
 }
 
-li a:hover:not(.active) {
+.Nav-links a:hover:not(.active) {
   background-color: rgb(255, 255, 255);
-  color: black
+  color: rgb(0, 0, 0)
+}
+
+/*
+.Nav-main li:first-child a{}
+*/
+
+.Nav-logo {
+  max-width: 30%;
+  padding: calc(1px + 2vmin)
 }

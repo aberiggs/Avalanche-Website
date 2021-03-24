@@ -1,0 +1,8 @@
+.Content-page {
+    background-image: url(./The-Pattern-Library.png);
+    min-height: 70vmin;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}

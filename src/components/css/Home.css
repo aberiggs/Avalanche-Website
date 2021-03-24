@@ -3,7 +3,8 @@
 
 .Home {
     text-align: center;
-    background-color: #303030;
+    background-image: url('./The-Pattern-Library.png');
+    
   }
   
   /*
@@ -29,6 +30,7 @@
     font-size: calc(10px + 6vmin);
     color: white;
     font-family: 'Redressed', cursive;
+    
   }
 
   .Home-paragraph {
