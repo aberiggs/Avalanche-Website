@@ -21,12 +21,10 @@
   */
 
   .Home-header {
-    min-height: 70vmin;
     display: flex;
     flex-direction: column;
     align-items: center;
     /*justify-content: center; */
-    padding-top: 30vmin; 
     font-size: calc(10px + 6vmin);
     color: white;
     font-family: 'Redressed', cursive;
@@ -36,6 +34,7 @@
   .Home-paragraph {
     font-family: 'Raleway', sans-serif;
     font-size: calc(2px + 2vmin);
+    width: 65%;
   }
   
   .Home-link {
@@ -70,4 +69,31 @@
   font-size: 20px;
   background: #efefef;
   text-align: center;
+}
+
+.Home-vid-div, .Home-content-div {
+  padding-top: 15vmin; 
+  min-height: 85vmin;
+}
+
+.Home-vid-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  width: 50%;
+  float: left;
+}
+
+.Home-video {
+  border: 0px;
+}
+
+.Home-content-div {
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  width: 50%;
 }

@@ -1,8 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 .Content-page {
     background-image: url(./The-Pattern-Library.png);
-    min-height: 70vmin;
+    min-height: 85vmin;
+    padding-top: 15vmin;
     display: flex;
     flex-direction: column;
     color: white;
     text-align: center;
+}
+
+.Content-page h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.Content-page p {
+    font-family: 'Raleway', sans-serif;
+    font-size: calc(2px + 2vmin);
+  }
+
+.Content-page a {
+    color:aqua;
+    text-decoration: none;
 }
