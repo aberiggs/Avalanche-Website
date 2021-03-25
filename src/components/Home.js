@@ -3,14 +3,22 @@ import './css/Home.css';
 
 import { Slide } from 'react-slideshow-image';
 
+import Bleriot from './css/aircraft/1.png';
+import P26 from './css/aircraft/2.png';
+import FW190 from './css/aircraft/3.png';
+import Skytrain from './css/aircraft/4.png';
+import Cobra from './css/aircraft/5.png';
+import F117 from './css/aircraft/6.png';
+import FlightUnit from './css/aircraft/7.png';
+
 const slideImages = [
-  'https://lh6.googleusercontent.com/7WycNB_c3leH9TYMvYVXadbLR90MYhSZTCyt67ZjU-EMhEgi9thr5rq4YF_okMbqRpTEXGxulzs3cHR-K3mciUw=w16383',
-  'https://lh6.googleusercontent.com/p7LvI1371kG4PHWhckPcSI_TwQimPjRGeGeASRDpzm86-gqs6e9mdYEuR34I5zcoHAxgIwS6TVCJTnn2RyfSecQ6mfOeyyCIeDjD3Kc',
-  'https://lh3.googleusercontent.com/QCE0kuCm3GZELCrRd_5ELZ-US43H5UUbasVx_HXoGNMK4zqh5oSV-jEUMMxgRh4H6orcswKJy3x9tK5_hJKwH7s=w16383',
-  'https://upload.wikimedia.org/wikipedia/commons/7/7f/C47_Skytrain_-_Duxford_D-Day_Show_2014_%28cropped%29.jpg',
-  'https://lh5.googleusercontent.com/RHiuXEZXrFULJzgjquO8K89XOMzi6Xrq9n6EjXElLzaalwb9vyINTnkSNjeYnoXDOR8pXvKEKuYR-c3s3XV1CEqmtjlqVJoMpDLHxNiTxCsN9lLISSCZaGxXpDp3VelWCXvaQ503ag',
-  'https://lh6.googleusercontent.com/zP7AVRDLKoSNgZ_I_5Cl8CU5vIpssgzkbQWkZA6XOsT8F1kTGKPyTDpRy1LMJMDrMnf4LaPjFyDtAHe4e_qCUhY=w16383',
-  'https://lh6.googleusercontent.com/GCU-zXuyRP5LNAJnYBVWdadssPTNh0FvKnWEyr_tLv-KFhLeieRXg1xE4TJzniKbeM1ZFT8NxOWdcHe1fpS-ty0=w16383'
+  Bleriot,
+  P26,
+  FW190,
+  Skytrain,
+  Cobra,
+  F117,
+  FlightUnit
 ];
 
 function Home() {
