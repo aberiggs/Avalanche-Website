@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Avalanche-Website/static/css/main.d9ef05cf.chunk.css",
-    "main.js": "/Avalanche-Website/static/js/main.3a4b51aa.chunk.js",
-    "main.js.map": "/Avalanche-Website/static/js/main.3a4b51aa.chunk.js.map",
+    "main.js": "/Avalanche-Website/static/js/main.c8673d1e.chunk.js",
+    "main.js.map": "/Avalanche-Website/static/js/main.c8673d1e.chunk.js.map",
     "runtime-main.js": "/Avalanche-Website/static/js/runtime-main.db6ceef7.js",
     "runtime-main.js.map": "/Avalanche-Website/static/js/runtime-main.db6ceef7.js.map",
     "static/css/2.0ccb862f.chunk.css": "/Avalanche-Website/static/css/2.0ccb862f.chunk.css",
@@ -14,6 +14,13 @@
     "static/css/2.0ccb862f.chunk.css.map": "/Avalanche-Website/static/css/2.0ccb862f.chunk.css.map",
     "static/css/main.d9ef05cf.chunk.css.map": "/Avalanche-Website/static/css/main.d9ef05cf.chunk.css.map",
     "static/js/2.b47a49af.chunk.js.LICENSE.txt": "/Avalanche-Website/static/js/2.b47a49af.chunk.js.LICENSE.txt",
+    "static/media/1.860f3b99.png": "/Avalanche-Website/static/media/1.860f3b99.png",
+    "static/media/2.4bba09e3.png": "/Avalanche-Website/static/media/2.4bba09e3.png",
+    "static/media/3.8c425326.png": "/Avalanche-Website/static/media/3.8c425326.png",
+    "static/media/4.7aa1237e.png": "/Avalanche-Website/static/media/4.7aa1237e.png",
+    "static/media/5.de11466b.png": "/Avalanche-Website/static/media/5.de11466b.png",
+    "static/media/6.c5af7f51.png": "/Avalanche-Website/static/media/6.c5af7f51.png",
+    "static/media/7.668c6be0.png": "/Avalanche-Website/static/media/7.668c6be0.png",
     "static/media/ContentPage.css": "/Avalanche-Website/static/media/The-Pattern-Library.829d4548.png",
     "static/media/logo.38491c2b.png": "/Avalanche-Website/static/media/logo.38491c2b.png"
   },
@@ -22,6 +29,6 @@
     "static/css/2.0ccb862f.chunk.css",
     "static/js/2.b47a49af.chunk.js",
     "static/css/main.d9ef05cf.chunk.css",
-    "static/js/main.3a4b51aa.chunk.js"
+    "static/js/main.c8673d1e.chunk.js"
   ]
 }
