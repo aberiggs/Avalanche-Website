@@ -2,24 +2,41 @@
 
 .Content-page {
     background-image: url(./The-Pattern-Library.png);
-    min-height: 85vmin;
-    padding-top: 15vmin;
+    min-height: 95vmin;
+    padding-top: 5vmin;
     display: flex;
     flex-direction: column;
     color: white;
     text-align: center;
+    align-items: center;
+}
+
+.Content-page h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
 }
 
 .Content-page h1 {
-    font-family: 'Raleway', sans-serif;
+    font-size: calc(8px + 3vmin);
+}
+
+.Content-page h2 {
+    text-align: left;
+    font-size: calc(5px + 2.5vmin);
 }
 
 .Content-page p {
     font-family: 'Raleway', sans-serif;
-    font-size: calc(2px + 2vmin);
+    font-size: calc(3px + 2vmin);
+    width: 65%;
+    text-align: center;
   }
 
 .Content-page a {
     color:aqua;
+    text-decoration: none;
+}
+
+.Content-page a:hover:not(.active) {
+    color:rgb(120, 120, 248);
     text-decoration: none;
 }

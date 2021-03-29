@@ -3,8 +3,9 @@ import Home from './components/Home.js';
 import Navbar from './components/Navbar.js';
 import About from './components/About.js';
 import TechnicalDocuments from './components/TechnicalDocuments.js';
+import FAQ from './components/FAQ.js';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
@@ -22,13 +23,16 @@ export default function App(){
             */}
         
         <Switch>
-          <Route path="/Avalanche-Website/technical-documents">
+          <Route path="/faq">
+            <FAQ />
+          </Route>
+          <Route path="/technical-documents">
             <TechnicalDocuments />
           </Route>
-          <Route path="/Avalanche-Website/about">
+          <Route path="/about">
             <About />
           </Route>
-          <Route path="/Avalanche-Website/">
+          <Route path="/">
             <Home />
           </Route>
         </Switch>

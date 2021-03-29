@@ -13,7 +13,7 @@ function TechnicalDocuments(){
             <p>Want to know more about your upcoming journey? Check this document to see everywhere you're going to visit and why!</p>
             <br></br>
             <h1>Credits <a href="https://docs.google.com/document/d/1Xh1PA_8xn_AMkb6tWnyzLilwdvODfc5sTNfRdmdF2sk/edit?usp=sharing" target="_blank" rel="noreferrer noopener">Document</a></h1>
-            <p>Want to know where we got all of our invormation? Take a look at all of the sources we cited throughout our research!</p>
+            <p>Want to know where we got all of our information? Take a look at all of the sources we cited throughout our research!</p>
         </div>
     );
 }

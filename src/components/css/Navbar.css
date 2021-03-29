@@ -40,11 +40,15 @@ body {margin:0;}
   color: rgb(0, 0, 0)
 }
 
+.Nav-top img:hover:not(.active) {
+  background-color: rgba(202, 210, 253, 0.8);
+}
+
 /*
 .Nav-main li:first-child a{}
 */
 
 .Nav-logo {
   max-width: 30%;
-  padding: calc(1px + 2vmin)
+  padding: calc(1px + 1vmin)
 }

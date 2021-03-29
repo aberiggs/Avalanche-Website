@@ -9,14 +9,17 @@ function Navbar(){
             <div className="Nav-main">
                 <nav>
                     <ul>
-                        <li>
-                            <Link to="/Avalanche-Website/"><img src={logo} className="Nav-logo" draggable="false"></img></Link>
+                        <li className="Nav-top">
+                            <Link to="/"><img src={logo} className="Nav-logo" draggable="false"></img></Link>
                         </li>
                         <li className="Nav-links">
-                            <Link to="/Avalanche-Website/technical-documents">Technical Documents</Link>
+                            <Link to="/FAQ">Frequently Asked Questions</Link>
                         </li>
                         <li className="Nav-links">
-                            <Link to="/Avalanche-Website/about">About</Link>
+                            <Link to="/technical-documents">Technical Documents</Link>
+                        </li>
+                        <li className="Nav-links">
+                            <Link to="/about">About the Site</Link>
                         </li>
                     </ul>
                 </nav>
