@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Avalanche-Website/static/css/main.d9ef05cf.chunk.css",
-    "main.js": "/Avalanche-Website/static/js/main.8a56021e.chunk.js",
-    "main.js.map": "/Avalanche-Website/static/js/main.8a56021e.chunk.js.map",
+    "main.css": "/Avalanche-Website/static/css/main.ceba6f90.chunk.css",
+    "main.js": "/Avalanche-Website/static/js/main.4f7eb255.chunk.js",
+    "main.js.map": "/Avalanche-Website/static/js/main.4f7eb255.chunk.js.map",
     "runtime-main.js": "/Avalanche-Website/static/js/runtime-main.db6ceef7.js",
     "runtime-main.js.map": "/Avalanche-Website/static/js/runtime-main.db6ceef7.js.map",
     "static/css/2.0ccb862f.chunk.css": "/Avalanche-Website/static/css/2.0ccb862f.chunk.css",
-    "static/js/2.b47a49af.chunk.js": "/Avalanche-Website/static/js/2.b47a49af.chunk.js",
-    "static/js/2.b47a49af.chunk.js.map": "/Avalanche-Website/static/js/2.b47a49af.chunk.js.map",
+    "static/js/2.4ba0af97.chunk.js": "/Avalanche-Website/static/js/2.4ba0af97.chunk.js",
+    "static/js/2.4ba0af97.chunk.js.map": "/Avalanche-Website/static/js/2.4ba0af97.chunk.js.map",
     "static/js/3.4290691c.chunk.js": "/Avalanche-Website/static/js/3.4290691c.chunk.js",
     "static/js/3.4290691c.chunk.js.map": "/Avalanche-Website/static/js/3.4290691c.chunk.js.map",
     "index.html": "/Avalanche-Website/index.html",
     "static/css/2.0ccb862f.chunk.css.map": "/Avalanche-Website/static/css/2.0ccb862f.chunk.css.map",
-    "static/css/main.d9ef05cf.chunk.css.map": "/Avalanche-Website/static/css/main.d9ef05cf.chunk.css.map",
-    "static/js/2.b47a49af.chunk.js.LICENSE.txt": "/Avalanche-Website/static/js/2.b47a49af.chunk.js.LICENSE.txt",
+    "static/css/main.ceba6f90.chunk.css.map": "/Avalanche-Website/static/css/main.ceba6f90.chunk.css.map",
+    "static/js/2.4ba0af97.chunk.js.LICENSE.txt": "/Avalanche-Website/static/js/2.4ba0af97.chunk.js.LICENSE.txt",
     "static/media/1.860f3b99.png": "/Avalanche-Website/static/media/1.860f3b99.png",
     "static/media/2.4bba09e3.png": "/Avalanche-Website/static/media/2.4bba09e3.png",
     "static/media/3.8c425326.png": "/Avalanche-Website/static/media/3.8c425326.png",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.db6ceef7.js",
     "static/css/2.0ccb862f.chunk.css",
-    "static/js/2.b47a49af.chunk.js",
-    "static/css/main.d9ef05cf.chunk.css",
-    "static/js/main.8a56021e.chunk.js"
+    "static/js/2.4ba0af97.chunk.js",
+    "static/css/main.ceba6f90.chunk.css",
+    "static/js/main.4f7eb255.chunk.js"
   ]
 }
