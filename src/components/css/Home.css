@@ -97,3 +97,8 @@
   align-items: center;
   width: 50%;
 }
+
+.Home-vid-div iframe {
+  height: 50vmin;
+  width: 90%;
+}
