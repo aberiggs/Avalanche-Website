@@ -23,16 +23,16 @@ export default function App(){
             */}
         
         <Switch>
-          <Route path="/faq">
+          <Route exact path="/faq">
             <FAQ />
           </Route>
-          <Route path="/technical-documents">
+          <Route exact path="/technical-documents">
             <TechnicalDocuments />
           </Route>
-          <Route path="/about">
+          <Route exact path="/about">
             <About />
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
           </Route>
         </Switch>
