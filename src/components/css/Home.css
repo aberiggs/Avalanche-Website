@@ -64,11 +64,14 @@
 }
 
 .each-slide span {
-  visibility: hidden;
+  
   padding: 20px;
   font-size: 20px;
   background: #efefef;
   text-align: center;
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  bottom: 0;
 }
 
 .Home-vid-div, .Home-content-div {

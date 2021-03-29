@@ -52,37 +52,37 @@ function Slideshow() {
         <Slide easing="ease">
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
-              <span>Slide 1</span>
+              <span>Blériot XI</span>
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
-              <span>Slide 2</span>
+              <span>P-26 Peashooter</span>
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
-              <span>Slide 3</span>
+              <span>FW 190 A-8</span>
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[3]})`}}>
-              <span>Slide 4</span>
+              <span>C-47 Skytrain</span>
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[4]})`}}>
-              <span>Slide 5</span>
+              <span>AH-1J SeaCobra</span>
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[5]})`}}>
-              <span>Slide 6</span>
+              <span>F-117 Nighthawk</span>
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[6]})`}}>
-              <span>Slide 7</span>
+              <span>YoRHa Flight Unit Ho229</span>
             </div>
           </div>
         </Slide>
